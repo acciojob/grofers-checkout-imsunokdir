@@ -6,7 +6,7 @@ const getSum = () => {
 	
 	const table = document.getElementsByTagName('table')[0];
 	const newTr = document.createElement('tr');
-	newTr.id="total";
+	newTr.id="ans";
 	const newTd1 = document.createElement('td');
     
 	newTd1.colSpan = 2;
